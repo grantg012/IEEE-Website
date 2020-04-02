@@ -1,0 +1,22 @@
+#header-bar > img {
+    width:27%; 
+    height: 100px;
+    background-color: white;
+}
+
+#header-bar {
+    white-space: nowrap;
+    background-color: white;
+}
+
+body {
+    background-color: #fdd802;
+}
+
+#missingImageSpan {
+    display: inline-block;
+    border: 1px solid gray;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+}
