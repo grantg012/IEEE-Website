@@ -1,7 +1,14 @@
 #header-bar > img {
-    width:27%; 
-    height: 100px;
     background-color: white;
+}
+
+#header-bar > img.welcome {
+    width: 10%;
+}
+
+#header-bar > img.rov-header {
+    height: 100px;
+    width:25%; 
 }
 
 #header-bar {
@@ -19,4 +26,22 @@ body {
     width: 300px;
     height: 100px;
     padding: 5px;
+}
+
+blink {
+    /* animation: blink-animation 1s steps(5, start) infinite; */
+    animation-duration: 1s;
+    animation-timing-function: steps(5, start);
+    animation-delay: 0s; 
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: blink-animation;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
 }
